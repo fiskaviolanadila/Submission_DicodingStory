@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DicodingStory</string>
+    <string name="signup">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="message_welcome_page">Ready to share your journey story on Dicoding? Tell your experiences or get inspired by others!</string>
+    <string name="title_welcome_page">Welcome to Dicoding Story!</string>
+    <string name="title_signup_page">Sign up and start sharing your stories with Dicoding Story!</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="message_login_page">Log in to share stories and see stories from other users!</string>
+    <string name="title_login_page">Its time to share stories on Dicoding Story!</string>
+    <string name="name">Name</string>
+    <string name="message_main_page">Welcome to Dicoding Story</string>
+    <string name="logout">Logout</string>
+    <string name="dicoding_story">Dicoding Story</string>
+    <string name="story_name">Story Name</string>
+    <string name="story_description">Story Description</string>
+    <string name="created_at">Uploaded at: </string>
+    <string name="image_story">Story Image</string>
+    <string name="description_hint">Add description…</string>
+    <string name="button_add">Add</string>
+    <string name="kamera">Camera</string>
+    <string name="galeri">Gallery</string>
+    <string name="unggah_story">Upload Story</string>
+    <string name="button_continue">Sign In or Sign Up</string>
+    <string name="intruction_text">Want to view or share stories? Tap the button below to get started!</string>
+    <string name="story_list_image">Story List Image</string>
+    <string name="imageview">Image</string>
+    <string name="story_image">Widget Story Image</string>
+    <string name="short_description">Start creating your story and explore others stories on Dicoding Story!</string>
+    <string name="configure_your_widget">Configure your widget</string>
+    <string name="widget_title">Dicoding Story</string>
+    <string name="error_invalid_email">Invalid email format</string>
+    <string name="error_short_password">Password must be at least 8 characters</string>
+    <string name="hint_email">Enter your email</string>
+    <string name="hint_password">Enter your password</string>
+    <string name="loading_login">Processing login…</string>
+    <string name="loading_signup">Processing signup…</string>
+    <string name="retry_loading_error">An error occurred. Please try again.</string>
+    <string name="retry">Retry</string>
+</resources>

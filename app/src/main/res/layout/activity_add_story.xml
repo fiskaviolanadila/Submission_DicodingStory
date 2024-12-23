@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".view.story.AddStoryActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp">
+
+        <ImageView
+            android:id="@+id/ivStoryImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:contentDescription="@string/image_story"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_placeholder"
+            android:layout_marginBottom="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <Button
+                android:id="@+id/buttonCamera"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:text="@string/kamera"
+                android:textColor="@android:color/white"
+                android:backgroundTint="@color/navy"
+                android:layout_weight="1"
+                android:radius="25dp"/>
+
+            <Button
+                android:id="@+id/buttonGallery"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:text="@string/galeri"
+                android:textColor="@android:color/white"
+                android:backgroundTint="@color/navy"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:radius="25dp"/>
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardViewDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:radius="8dp"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="8dp">
+
+            <EditText
+                android:id="@+id/edAddDescription"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_margin="8dp"
+                android:autofillHints="text"
+                android:gravity="top|start"
+                android:hint="@string/description_hint"
+                android:inputType="textMultiLine" />
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/buttonAdd"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:backgroundTint="@color/navy"
+            android:text="@string/unggah_story"
+            android:textColor="@android:color/white"
+            android:radius="27.5dp"/>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

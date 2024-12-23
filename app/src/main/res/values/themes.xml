@@ -1,0 +1,17 @@
+<resources>
+    <!-- Base application theme. -->
+
+    <style name="Base.Theme.Light" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme with white background and dark text -->
+        <item name="android:windowBackground">@color/background_white</item>
+        <item name="android:textColorPrimary">@color/text_dark</item>
+        <item name="android:textColorSecondary">@color/text_dark</item>
+
+        <!-- Status bar and navigation bar color -->
+        <item name="android:statusBarColor">@color/background_white</item>
+        <item name="android:navigationBarColor">@color/background_white</item>
+    </style>
+
+    <style name="Theme.Light" parent="Base.Theme.Light" />
+
+</resources>

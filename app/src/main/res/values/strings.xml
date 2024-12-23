@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">DicodingStory</string>
+    <string name="signup">Daftar</string>
+    <string name="login">Masuk</string>
+    <string name="message_welcome_page">Siap berbagi story tentang perjalananmu di Dicoding? Ceritakan pengalamanmu atau temukan inspirasi dari teman-teman lainnya!</string>
+    <string name="title_welcome_page">Selamat datang di Dicoding Story!</string>
+    <string name="title_signup_page">Daftar dan mulai berbagi story-mu dengan Dicoding Story!</string>
+    <string name="email">Email</string>
+    <string name="password">Kata Sandi</string>
+    <string name="message_login_page">Masuk untuk berbagi story dan melihat story dari teman-teman lainnya!</string>
+    <string name="title_login_page">Saatnya berbagi story di Dicoding Story!</string>
+    <string name="name">Nama</string>
+    <string name="message_main_page">Selamat Datang di Dicoding Story</string>
+    <string name="logout">Keluar</string>
+    <string name="dicoding_story">Dicoding Story</string>
+    <string name="story_name">Nama Story</string>
+    <string name="story_description">Deskripsi Story</string>
+    <string name="created_at">Diunggah pada: </string>
+    <string name="image_story">Gambar Story</string>
+    <string name="description_hint">Tambahkan deskripsi…</string>
+    <string name="button_add">Tambah</string>
+    <string name="kamera">Kamera</string>
+    <string name="galeri">Galeri</string>
+    <string name="unggah_story">Unggah Story</string>
+    <string name="button_continue">Masuk atau Daftar</string>
+    <string name="intruction_text">Ingin melihat atau berbagi story? Tekan tombol di bawah untuk memulai!</string>
+    <string name="story_list_image">Gambar Daftar Story</string>
+    <string name="imageview">Gambar</string>
+    <string name="story_image">Gambar Widget Story</string>
+    <string name="short_description">Mulai buat story Anda dan jelajahi story teman lainnya di Dicoding Story!</string>
+    <string name="configure_your_widget">Konfigurasi widget Anda</string>
+    <string name="widget_title">Dicoding Story</string>
+    <string name="error_invalid_email">Email tidak valid</string>
+    <string name="error_short_password">Password harus minimal 8 karakter</string>
+    <string name="hint_email">Masukkan email Anda</string>
+    <string name="hint_password">Masukkan password Anda</string>
+    <string name="loading_login">Memproses login…</string>
+    <string name="loading_signup">Memproses pendaftaran…</string>
+    <string name="title_activity_maps" translatable="false">Dicoding Story Maps</string>
+    <string name="maps" translatable="false">Maps</string>
+    <string name="normal_type" translatable="false">Normal</string>
+    <string name="satellite_type" translatable="false">Satellite</string>
+    <string name="terrain_type" translatable="false">Terrain</string>
+    <string name="hybrid_type" translatable="false">Hybrid</string>
+    <string name="retry_loading_error">Terjadi kesalahan. Silakan coba lagi.</string>
+    <string name="retry">Coba Lagi</string>
+</resources>
